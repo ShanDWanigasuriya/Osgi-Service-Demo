@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CustomerManagementServiceConsumer
+Bundle-SymbolicName: CustomerManagementServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: customermanagementserviceconsumer.CusConActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: customermanagementservicepublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: customermanagementserviceconsumer
